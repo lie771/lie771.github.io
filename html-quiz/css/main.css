@@ -4,3 +4,6 @@ body { width: 100%; height: 100%; }
 .pop {
 	color:salmon;
 }
+img {
+	width:10%; height: 10%;
+}
