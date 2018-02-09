@@ -1,0 +1,171 @@
+
+html,body { width: 100%; height: 100%; }
+body {
+	margin:20px;
+}
+
+/* Changing fonts */
+	@font-face {font-family: "UniversBlack"; src: url("../fonts/UniversBlack.ttf"); }
+	@font-face {font-family: "UniversLTStd-Bold"; src: url("../fonts/UniversLTStd-Bold.otf"); }
+	@font-face {font-family: "UniversLTStd"; src: url("../fonts/UniversLTStd.otf"); }
+
+
+.home{
+	/* #AwkwardMoment: */
+	position: fixed;
+	font-family: UniversLTStd-Bold;
+	font-size: 20px;
+	color: #0B8DC8;
+	left:20px;
+	top:20px;
+}
+
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+   	left:49%;
+    position:fixed;
+    top:4%;
+}
+.down {
+	position:fixed;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+   	left:49%;
+   	bottom:4%;
+    
+}
+.mainpost1{
+		/* One of my female fri: */
+	font-family: UniversLTStd;
+	position:fixed;
+	font-size: 30px;
+	top: 43.5%;
+	padding-right: 19%;
+	padding-left: 20%;
+	padding-bottom:20%;
+	line-height: 40px;
+	text-align: left ;
+	color: black;
+	line-height: 48px;
+}
+.mainpost2{
+		/* One of my female fri: */
+	font-family: UniversLTStd;
+	position:fixed;
+	font-size: 30px;
+	padding-top:10%;
+	padding-top: 22%;
+	padding-right: 19%;
+	padding-left: 20%;
+	line-height: 40px;
+	text-align: left ;
+	color: black;
+	line-height: 48px;
+}
+.authormainpost1{
+/* Chasing Holiness Copy: */
+font-family: UniversLTStd-Bold;
+font-size: 24px;
+color: #000000;
+position: fixed;
+left:16%;
+top:33%;
+}
+.usernamemainpost1{
+/* @sitlausdeo copy: */
+font-family: UniversLTStd;
+font-size: 17px;
+color: #000000;
+position: fixed;
+left:30%;
+top:34%;
+}
+.usernamemainpost2{
+/* @sitlausdeo copy: */
+font-family: UniversLTStd;
+font-size: 17px;
+color: #000000;
+position: fixed;
+left:25%;
+top:34%;
+}
+.datemainpost1{
+/* @sitlausdeo copy: */
+font-family: UniversLTStd;
+font-size: 17px;
+color: #000000;
+position: fixed;
+right:15%;
+top:34%;
+}
+
+/*.rectange{
+	transition: all 0.4s ease-in-out;
+-webkit-transform: translate3d(0,0,0);
+}
+.rectangle:hover{
+transform: translateX(1000px);
+
+
+}*/
+.rectangle1 {
+	position: fixed;
+	width: 575px;
+	height: 32px;
+	background: #616161;
+	top:51%;
+	left:38%;
+	transition: all 0.8s ease-in-out;
+}
+.rectangle1:hover{
+transform: translateX(1000px);
+
+}
+.rectangle2 {
+	position: fixed;
+	width: 800px;
+	height: 32px;
+	background: #616161;
+	top:57%;
+	left:21.5%;
+	transition: all 0.8s ease-in-out;
+}
+.rectangle2:hover{
+transform: translateX(1500px);
+
+}
+.rectangle3 {
+	position: fixed;
+	width: 800px;
+	height: 32px;
+	background: #616161;
+	top:63%;
+	left:21.5%;
+	transition: all 0.8s ease-in-out;
+}
+.rectangle3:hover{
+transform: translateX(1500px);
+
+}
+.rectangle4 {
+	position: fixed;
+	width: 430px;
+	height: 32px;
+	background: #616161;
+	top:51%;
+	left:49%;
+	transition: all 0.8s ease-in-out;
+}
+.rectangle4:hover{
+transform: translateX(1000px);
+
+}
+
