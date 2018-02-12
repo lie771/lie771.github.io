@@ -6,7 +6,7 @@ input, textarea { margin: 0; padding: 0; }
 /* clear */
 .clear:after {
     content: "."; 
-    display: block; 
+/*    display: block; */
     height: 0; 
     clear: both; 
     visibility: hidden;
