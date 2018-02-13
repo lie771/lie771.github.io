@@ -1,0 +1,460 @@
+
+html,body { width: 100%; height: 200%; }
+body {
+	margin:20px;
+	overflow: scroll;
+	overflow-y: auto;
+
+}
+
+/* Changing fonts */
+	@font-face {font-family: "UniversBlack"; src: url("../fonts/UniversBlack.ttf"); }
+	@font-face {font-family: "UniversLTStd-Bold"; src: url("../fonts/UniversLTStd-Bold.otf"); }
+	@font-face {font-family: "UniversLTStd"; src: url("../fonts/UniversLTStd.otf"); }
+
+link {
+    display: none;
+}
+
+.home{
+	/* #AwkwardMoment: */
+	position: fixed;
+	font-family: UniversLTStd-Bold;
+	font-size: 22px;
+	color: #0B8DC8;
+	left:20px;
+	top:20px;
+}
+.page2link:hover{
+	color:#0B8DC8;
+}
+.bodycontent{
+	/* One of my female fri: */
+	position:relative;
+	display: inline-block;
+	top:8%;
+/*	overflow: scroll;
+	overflow-y: auto;*/
+/*	margin:auto;*/
+	font-family: UniversLTStd;
+	font-size: 21px;
+	color: black;
+	line-height: 37px;
+/*	padding-top:10%;*/
+	margin-right: 25%;
+	margin-left: 26%;
+	-webkit-animation-name: move;
+    -webkit-animation-duration: 30s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: bottom;
+    -webkit-animation-timing-function: linear;
+}
+.bodycontent:hover{
+	-webkit-animation-play-state: paused;
+    }
+    
+    @-webkit-keyframes move {
+    	0% {
+    		margin-top: -100px;
+    	}
+    	
+    	100% {
+    		margin-top: -1000px;
+    	}
+    }
+}
+.post{
+	/* One of my female fri: */
+/*	position:fixed;*/
+	top:5%;
+	font-family: UniversLTStd;
+	font-size: 24px;
+	color: black;
+	line-height: 33px;
+	padding-top:10%;
+}
+.post2{
+/*position: fixed;*/
+top:54%;
+}
+
+.post3{
+/*position: fixed;*/
+
+top:81%;
+}
+.post4{
+/*position: fixed;*/
+top:111%;
+}
+/*.post1{
+position:fixed;
+top:30%;
+}*/
+
+.author{
+	/* Mohammad Ali */
+	font-family: UniversLTStd-Bold;
+	font-size: 18px;
+	color: #000000;
+/*	-webkit-animation-name: move;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: bottom;
+    -webkit-animation-timing-function: linear;*/
+/*	padding-bottom:5px;*/
+}
+/*.bodycontent:hover{
+	-webkit-animation-play-state: paused;
+    }
+    
+    @-webkit-keyframes move {
+    	0% {
+    		margin-top: -400px;
+    	}
+    	100% {
+    		margin-bottom: 800px;
+    	}
+    }
+}*/
+.author1{
+/*	position:absolute;*/
+	top:10%;
+}
+.author2{
+	position:absolute;
+	top:5%;
+}
+.author3{
+	position:absolute;
+	top:10.5%;
+}
+.author4{
+	position:absolute;
+	top:16%;
+}
+.author5{
+	position:absolute;
+	top:21.5%;
+}
+.author6{
+	position:absolute;
+	top:27%;
+}
+.author7{
+	position:absolute;
+	top:31.5%;
+}
+.author8{
+	position:absolute;
+	top:37%;
+}
+.author9{
+	position:absolute;
+	top:43.4%;
+}
+.author10{
+	position:absolute;
+	top:49.5%;
+}
+.author11{
+	position:absolute;
+	top:56%;
+}
+.author12{
+	position:absolute;
+	top:61.4%;
+}
+.author13{
+	position:absolute;
+	top:66%;
+}
+.author14{
+	position:absolute;
+	top:72.4%;
+}
+.author15{
+	position:absolute;
+	top:77%;
+}
+.author16{
+	position:absolute;
+	top:82.3%;
+}
+.author17{
+	position:absolute;
+	top:88.5%;
+}
+.author18{
+	position:absolute;
+	top:94%;
+}
+
+
+
+.username{
+	/* @maglolz: */
+
+	font-family: UniversLTStd;
+	font-size: 13px;
+	font-style: italic;
+	color: #000000;
+	padding-bottom:10px;
+}
+.username1{
+	position:absolute;
+	top:0.4%;
+}
+.username2{
+	position:absolute;
+	top:5.4%;
+}
+.username3{
+	position:absolute;
+	top:10.9%;
+}
+.username4{
+	position:absolute;
+	top:16.4%;
+}
+.username5{
+	position:absolute;
+	top:21.9%;
+}
+.username6{
+	position:absolute;
+	top:27.4%;
+}
+.username7{
+	position:absolute;
+	top:31.9%;
+}
+.username8{
+	position:absolute;
+	top:37.4%;
+}
+.username9{
+	position:absolute;
+	top:43.8%;
+}
+.username10{
+	position:absolute;
+	top:49.9%;
+}
+.username11{
+	position:absolute;
+	top:56.4%;
+}
+.username12{
+	position:absolute;
+	top:61.9%;
+}
+.username13{
+	position:absolute;
+	top:66.4%;
+}
+.username14{
+	position:absolute;
+	top:72.9%;
+}
+.username15{
+	position:absolute;
+	top:77.4%;
+}
+.username16{
+	position:absolute;
+	top:82.8%;
+}
+.username17{
+	position:absolute;
+	top:88.9%;
+}
+.username18{
+	position:absolute;
+	top:94.4%;
+}
+
+.date{
+	font-style: italic;
+	/* 16 Dec 2017: */
+	font-family: UniversLTStd;
+	font-size: 13px;
+	color: #000000;
+}
+.date1{
+	top:0.4%;
+	right:0%;
+	position:absolute;
+}
+
+.date2{
+	top:5.4%;
+	right:0%;
+	position:absolute;
+}
+.date3{
+	top:10.9%;
+	right:0%;
+	position:absolute;
+}
+.date4{
+	top:16.4%;
+	right:0%;
+	position:absolute;
+}
+.date5{
+	top:21.9%;
+	right:1%;
+	position:absolute;
+}
+.date6{
+	top:27.4%;
+	right:1%;
+	position:absolute;
+}
+.date7{
+	top:31.9%;
+	right:1%;
+	position:absolute;
+}
+.date8{
+	top:37.4%;
+	right:1%;
+	position:absolute;
+}
+.date9{
+	top:43.8%;
+	right:1%;
+	position:absolute;
+}
+.date10{
+	top:49.9%;
+	right:1%;
+	position:absolute;
+}
+.date11{
+	top:56.4%;
+	right:1%;
+	position:absolute;
+}
+.date12{
+	top:61.4%;
+	right:1%;
+	position:absolute;
+}
+.date13{
+	top:66.5%;
+	right:1%;
+	position:absolute;
+}
+.date14{
+	top:72.9%;
+	right:1%;
+	position:absolute;
+}
+.date15{
+	top:77.4%;
+	right:1%;
+	position:absolute;
+}
+.date16{
+	top:82.8%;
+	right:1%;
+	position:absolute;
+}
+.date17{
+	top:88.9%;
+	right:1%;
+	position:absolute;
+}
+.date18{
+	top:94.4%;
+	right:1%;
+	position:absolute;
+}
+
+hr{
+	display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: .75em 0;
+    padding-bottom:9%;
+}
+/*hr.line1 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: .75em 0;
+    padding-bottom:9%;
+
+}
+hr.line2 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: .75em 0;
+    padding-bottom:9%;
+
+}
+hr.line3 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: .75em 0;
+    padding-bottom:9%;
+
+}
+hr.line4 {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+
+    margin: .75em 0;
+    padding-bottom:9%;
+
+}*/
+/*i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 10px;
+
+}*/
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+   	left:49%;
+    position:fixed;
+    top:4%;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+   	left:49%;
+   	bottom:4%;
+    position:fixed;
+}
+.mainpost1{
+		/* One of my female fri: */
+	font-family: UniversLTStd;
+	font-size: 30px;
+	padding-top:20%;
+/*	padding-right: 19%;*/
+	padding-left: 20%;
+	line-height: 40px;
+	text-align: left ;
+	color: black;
+	line-height: 48px;
+}
+.authormainpost1{
+/* Chasing Holiness Copy: */
+font-family: UniversLTStd-Bold;
+font-size: 24px;
+color: #000000;
+position: fixed;
+}
