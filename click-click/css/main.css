@@ -11,7 +11,9 @@ body {
 	@font-face {font-family: "UniversBlack"; src: url("../fonts/UniversBlack.ttf"); }
 	@font-face {font-family: "UniversLTStd-Bold"; src: url("../fonts/UniversLTStd-Bold.otf"); }
 	@font-face {font-family: "UniversLTStd"; src: url("../fonts/UniversLTStd.otf"); }
-
+link {
+    display: none;
+}
 
 .home{
 	/* #AwkwardMoment: */
