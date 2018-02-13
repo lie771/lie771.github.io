@@ -11,6 +11,7 @@ body {
 	@font-face {font-family: "UniversBlack"; src: url("../fonts/UniversBlack.ttf"); }
 	@font-face {font-family: "UniversLTStd-Bold"; src: url("../fonts/UniversLTStd-Bold.otf"); }
 	@font-face {font-family: "UniversLTStd"; src: url("../fonts/UniversLTStd.otf"); }
+
 link {
     display: none;
 }
@@ -126,7 +127,7 @@ top:30%;
 }
 .author3{
 	position:absolute;
-	top:10.5%;
+	top:10%;
 }
 .author4{
 	position:absolute;
@@ -210,7 +211,7 @@ top:30%;
 }
 .username3{
 	position:absolute;
-	top:10.9%;
+	top:10.3%;
 }
 .username4{
 	position:absolute;
