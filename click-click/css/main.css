@@ -14,7 +14,9 @@ body {
 link {
     display: none;
 }
-
+/*div{
+	margin-bottom:20px;
+}*/
 hr{
 	display: block;
     height: 1px;
@@ -62,12 +64,13 @@ hr{
     		margin-top: -1000px;
     	}
     }
-.page1link{
+.page2link{
 	color:black;
 }
-.page1link:hover{
+.page2link:hover{
 	color:#0B8DC8;
 }
+
 
 .author1{
 	/* Mohammad Ali */
@@ -84,7 +87,7 @@ hr{
 	font-style: italic;
 	color: #000000;
 	position:absolute;
-	top:0.4%;
+	top:0.5%;
 }
 .date1{
 	font-style: italic;
@@ -97,7 +100,7 @@ hr{
 }
 
 .post1{
-	padding-top:19px;
+	padding-top:2.5%;
 	font-family: UniversLTStd;
 	font-size: 20px;
 	color: black;
@@ -117,7 +120,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:5.5%;
 }
@@ -131,7 +134,7 @@ hr{
 	top:52%;
 }
 .post2{
-	padding-top:19px;
+	padding-top:2.5%;
 	font-family: UniversLTStd;
 	font-size: 20px;
 	color: black;
@@ -151,7 +154,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:10.8%;
 }
@@ -185,7 +188,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:17.1%;
 }
@@ -219,7 +222,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:22.3%;
 }
@@ -253,7 +256,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:27.66%;
 }
@@ -287,7 +290,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:33%;
 }
@@ -321,7 +324,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:38.3%;
 }
@@ -355,7 +358,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:44.5%;
 }
@@ -388,7 +391,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:50.7%;
 }
@@ -422,7 +425,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:56.9%;
 }
@@ -456,7 +459,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:63.1%;
 }
@@ -490,7 +493,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:67.5%;
 }
@@ -524,7 +527,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:73.7%;
 }
@@ -558,7 +561,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:78.1%;
 }
@@ -592,7 +595,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:83.4%;
 }
@@ -626,7 +629,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:89.65%;
 }
@@ -660,7 +663,7 @@ hr{
 	font-size: 13px;
 	font-style: italic;
 	color: #000000;
-	padding-top:9px;
+	padding-top:1.5%;
 	position:absolute;
 	top:94.95%;
 }
