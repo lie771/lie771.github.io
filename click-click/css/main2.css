@@ -208,8 +208,8 @@ transform: translateX(1500px);
 	width: 100%;
 	height: 32px;
 	background: #616161;
-	top:57%;
-/*	left:21.5%;*/
+	top:45%;
+	left:63%;
 	transition: all 0.8s ease-in-out;
 }
 .rectangle01:hover{
@@ -224,6 +224,7 @@ transform: translateX(1500px);
 /*	left:21.5%;*/
 	transition: all 0.8s ease-in-out;
 }
+/*full length 2nd*/
 .rectangle3:hover{
 transform: translateX(1500px);
 
@@ -250,7 +251,7 @@ transform: translateX(1500px);
 	top:51%;
 	transition: all 0.8s ease-in-out;
 }
-/*full length*/
+/*full length 3rd*/
 .rectangle5:hover{
 transform: translateX(1500px);
 
@@ -268,7 +269,7 @@ transform: translateX(1500px);
 transform: translateX(1500px);
 
 }
-/*full length*/
+/*full length 4th*/
 .rectangle7 {
 	position: fixed;
 	width: 100%;
@@ -281,17 +282,44 @@ transform: translateX(1500px);
 transform: translateX(1500px);
 
 }
+
+
 .rectangle11 {
 	position: fixed;
 	width: 100%;
 	height: 32px;
 	background: #616161;
-	top:57%;
-	left:70%;
-	margin-left:30%;
+	top:51%;
+	left:64.5%;
 	transition: all 0.8s ease-in-out;
 }
 .rectangle11:hover{
+transform: translateX(1500px);
+
+}
+.rectangle13 {
+	position: fixed;
+	width: 100%;
+	height: 32px;
+	background: #616161;
+	top:51%;
+	left:46%;
+	transition: all 0.8s ease-in-out;
+}
+.rectangle13:hover{
+transform: translateX(1500px);
+
+}
+.rectangle14 {
+	position: fixed;
+	width: 100%;
+	height: 32px;
+	background: #616161;
+	top:51%;
+	left:39%;
+	transition: all 0.8s ease-in-out;
+}
+.rectangle14:hover{
 transform: translateX(1500px);
 
 }
@@ -320,5 +348,18 @@ transform: translateX(1500px);
 .rectangle9:hover{
 transform: translateX(1500px);
 
+}
+/*full length5th line*/
+.rectangle12 {
+	position: fixed;
+	width: 100%;
+	height: 32px;
+	background: #616161;
+	top:69.5%;
+/*	left:10%;*/
+	transition: all 0.8s ease-in-out;
+}
+.rectangle12:hover{
+transform: translateX(1500px);
 }
 	

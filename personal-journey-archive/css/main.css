@@ -1,0 +1,17 @@
+html,body { width: 100%; height: 100%; }
+
+
+/* Changing fonts */
+/*	@font-face {font-family: "LibreBaskerville-Regular"; src: url("../fonts/LibreBaskerville-Regular.ttf"); }
+*/
+.names{
+	font-family: Arial;
+/*	transform: rotate(-90deg);color: #E4D9DA;
+	-webkit-transform: rotate(-90deg);*/
+	font-size: 17px;
+	
+/*	position:fixed;*/
+/*	top:30%*/
+	left:28%;
+	bottom:33%;
+}
