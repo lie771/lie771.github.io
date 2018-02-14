@@ -14,9 +14,8 @@ body {
 link {
     display: none;
 }
-/*div{
-	margin-bottom:20px;
-}*/
+
+
 hr{
 	display: block;
     height: 1px;
@@ -111,7 +110,7 @@ hr{
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
 	color: #000000;
-	/*padding-top:10%;*/
+	padding-bottom: 1.5
 }
 
 .username2{
