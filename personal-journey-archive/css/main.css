@@ -11,20 +11,20 @@ body{
 
 h1{
 	position:fixed;
-	top:22%;
-	left:44%;
-	font-size:30pt;
+	top:0%;
+	left:1%;
+	font-size:18pt;
 	line-height: 40pt;
 	text-align: center;
 }
-.names{
+body{
 	font-family: FTB;
 	font-size: 17px;
 }
 .travel{
 	position:fixed;
-	bottom:10%;
-	right:39%;}
+	top:40%;
+	right:45%;}
 
 .travel1{
 	width: 200px;
@@ -34,8 +34,8 @@ h1{
 }
 .home{
 	position:fixed;
-	bottom:10%;
-	right:10%;
+	top:40%;
+	right:26%;
 
 }
 .home1{
@@ -44,7 +44,8 @@ h1{
 }
 .food{
 	position:fixed;
-	top:10%;
+	top:40%;
+	left:5%;
 }
 .food1{
 	width: 200px;
@@ -52,7 +53,8 @@ h1{
 }
 .lifestyle{
 	position:fixed;
-	bottom:10%;
+	top:40%;
+	left:23%;
 }
 
 .lifestyle1{
@@ -62,12 +64,13 @@ h1{
 
 .missing{
 	position:fixed;
-	top:10%;
-	right:10%;
+	  top:40%;
+	right:5%;
 }
 .missing1{
-	width: 200px;
+	width: 230px;
     height: auto;
+
 }
 
 .hotpot{
@@ -121,35 +124,42 @@ h1{
 }
 .parsons{
 	position:fixed;
-	bottom:17%;
+	bottom:13%;
 	right:12%;
 	width: 310px;
     height: auto;
 }
 .routine{
 	position:fixed;
-	top:12%;
-	right:25%;
+	top:8%;
+	right:13.5%;
 	width: 290px;
     height: auto;
 }
 .swim{
 	position:fixed;
-	top:10%;
-	left:25%;
+	top:8%;
+	left:40%;
 	width: 350px;
+    height: auto;
+}
+.shower{
+	position:fixed;
+	top:8%;
+	left:12%;
+	width: 300px;
     height: auto;
 }
 .bg{
     position:fixed;
-	bottom:17%;
+	bottom:13%;
 	left:12%;
 	width: 300px;
     height: auto;
 }
 .dog{
 	position:fixed;
-	bottom:17%;
+	bottom:13%;
 	right:40%;
 	width: 310px;
     height: auto;
@@ -157,35 +167,42 @@ h1{
 
 .kristen{
 	position:fixed;
-	bottom:20%;
+	bottom:14%;
 	right: 10%;
 	z-index: 2;
 }
 .jahyun{
+	
 	position:fixed;
 	top:41%;
-	right: 23%;
-	z-index: 2;
+	left:28%;
 	z-index: 2;
 }
 .vincentg{
 	position:fixed;
 	top:41%;
-	left:42%;
+	left:58%;
+	z-index: 2;
+}
+.yangchen{
+	position:fixed;
+	top:41%;
+	right: 10%;
 	z-index: 2;
 }
 .seowon{
 	position:fixed;
-	bottom:20%;
+	bottom:14%;
 	right:37%;
 	z-index: 2;
 }
 .prithi{
 	position:fixed;
-	bottom:20%;
+	bottom:14%;
 	left:28%;
 	z-index: 2;
 }
+
 
 .roadtrip{
 	position:fixed;
@@ -225,6 +242,32 @@ h1{
 	position:fixed;
 	bottom:24%;
 	left:28%;
+	z-index: 2;
+}
+
+.missing3{
+	position:fixed;
+	top:25%;
+	right:20%;
+	width: 370px;
+    height: auto;
+}
+.missing2{
+	position:fixed;
+	top:25%;
+	left:20%;
+	width: 370px;
+    height: auto;
+}
+.yaren{
+	position:fixed;
+	bottom:31%;
+	left:37%;
+}
+.vincentp{
+	position:fixed;
+	bottom:31%;
+	right: 22%;
 	z-index: 2;
 }
 
