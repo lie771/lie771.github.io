@@ -177,6 +177,13 @@ position: fixed;
 right:17%;
 top:34.3%;
 }
+.authormainpost1{
+	color:black;
+}
+.authormainpost1:hover{
+	color:darkgray;
+}
+
 
 /*.rectange{
 	transition: all 0.4s ease-in-out;

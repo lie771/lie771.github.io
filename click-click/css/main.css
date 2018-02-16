@@ -32,7 +32,37 @@ hr{
 	color: #0B8DC8;
 	left:20px;
 	top:20px;
+	z-index: 2;
 }
+/*.shape{
+	width:12%;
+	height:13%;
+	background-color:white;
+	position: fixed;
+	top:10%;
+	z-index: 1;
+	opacity:1;
+	border: 1px;
+	outline-color: lightgray;
+    outline-style: solid;
+}
+.shape:hover{
+	opacity:0;
+}*/
+
+.about{
+	position: fixed;
+	padding-bottom: 20px;
+	top:7%;
+	font-size:16px; 
+	line-height:30px;
+	color:#FBFBFB;
+
+}
+.about:hover{
+	background-color:darkgray;
+}
+
 
 .bodycontent{
 	position:relative;
@@ -99,7 +129,7 @@ hr{
 	font-size: 13px;
 	right:0%;
 	position:absolute;
-	top:1.5%;
+	top:0.5%;
 }
 
 .post1{
@@ -168,7 +198,7 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
 	top:5.5%;
 }
@@ -177,8 +207,9 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:52%;
+	top:5.5%;
 }
 .post2{
 	padding-top:2.5%;
@@ -213,7 +244,7 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
 	top:10.8%;
 }
@@ -222,8 +253,9 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:52%;
+	top:10.8%;
 }
 .post3{
 	padding-top:19px;
@@ -257,7 +289,7 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
 	top:17.1%;
 }
@@ -266,8 +298,9 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:52%;
+	top:17.1%;
 }
 .post4{
 	padding-top:19px;
@@ -301,17 +334,18 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:22.3%;
+	top:22.4%;
 }
 .date5{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:52%;
+	top:22.4%;
 }
 .post5{
 	padding-top:19px;
@@ -345,17 +379,18 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:27.66%;
+	top:27.75%;
 }
 .date6{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:52%;
+	top:27.75%;
 }
 .post6{
 	padding-top:19px;
@@ -389,17 +424,18 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:33%;
+	top:33.2%;
 }
 .date7{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:52%;
+	top:33.2%;
 }
 .post7{
 	padding-top:19px;
@@ -433,9 +469,9 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:38.3%;
+	top:38.5%;
 }
 .date8{
 	font-style: italic;
@@ -443,7 +479,8 @@ hr{
 	font-size: 13px;
 	right:0%;
 	position:absolute;
-	top:56.9%;
+	padding-top:14px;
+	top:38.5%;
 }
 .post8{
 	padding-top:19px;
@@ -477,17 +514,18 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:44.5%;
+	top:44.73%;
 }
 .date9{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:66.1%;
+	top:44.73%;
 }
 .post9{
 	padding-top:19px;
@@ -521,17 +559,18 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:50.7%;
+	top:51%;
 }
 .date10{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:75.4%;
+	top:51%;
 }
 .post10{
 	padding-top:19px;
@@ -565,17 +604,18 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:56.9%;
+	top:57.3%;
 }
 .date11{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:84.55%;
+	top:57.3%;
 }
 .post11{
 	padding-top:19px;
@@ -608,17 +648,18 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:63.1%;
+	top:63.5%;
 }
 .date12{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:93.75%;
+	top:63.5%;
 }
 .post12{
 	padding-top:19px;
@@ -652,17 +693,18 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:67.5%;
+	top:68%;
 }
 .date13{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:93.75%;
+	top:68%;
 }
 .post13{
 	padding-top:19px;
@@ -696,17 +738,18 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:73.7%;
+	top:74.25%;
 }
 .date14{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:93.75%;
+	top:74.25%;
 }
 .post14{
 	padding-top:19px;
@@ -740,17 +783,18 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:78.1%;
+	top:78.7%;
 }
 .date15{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:93.75%;
+	top:78.7%;
 }
 .post15{
 	padding-top:19px;
@@ -784,17 +828,18 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:83.4%;
+	top:84.1%;
 }
 .date16{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:93.75%;
+	top:84.1%;
 }
 .post16{
 	padding-top:19px;
@@ -828,17 +873,18 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:89.65%;
+	top:90.35%;
 }
 .date17{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
 	right:0%;
+	padding-top:14px;
 	position:absolute;
-	top:93.75%;
+	top:90.35%;
 }
 .post17{
 	padding-top:19px;
@@ -872,17 +918,18 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	padding-top:1.5%;
+	padding-top:14px;
 	position:absolute;
-	top:94.95%;
+	top:95.7%;
 }
 .date18{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
+	padding-top:14px;
 	right:0%;
 	position:absolute;
-	top:93.75%;
+	top:95.7%;
 }
 .post18{
 	padding-top:19px;
