@@ -24,12 +24,20 @@ body {
 	position:fixed;
 	left:50%;
 	top:5%;
+	color:black;
+}
+.arrowup:hover{
+	color:gray;
 }
 .arrowdown{
 	transform:scale(3);
 	position:fixed;
 	left:50%;
 	bottom:5%;
+	color:black;
+}
+.arrowdown:hover{
+	color:gray;
 }
 
 /*i {
@@ -61,13 +69,17 @@ body {
 	font-size: 30px;
 	top: 43.5%;
 	padding-right: 19%;
-/*	padding-left: 20%;*/
-/*	padding-bottom:10%;*/
-	line-height: 40px;
 	text-align: left ;
 	color: black;
 	line-height: 48px;
 }
+.mainpost1hidden{
+	color:#FBFBFB;
+}
+.mainpost1hidden:hover{
+	background-color:darkgray;
+}
+
 .mainpost2{
 		/* One of my female fri: */
 	font-family: UniversLTStd;
@@ -147,6 +159,15 @@ position: fixed;
 left:31%;
 top:34.3%;
 }
+.usernamemainpost7{
+/* @sitlausdeo copy: */
+font-family: UniversLTStd;
+font-size: 17px;
+color: #000000;
+position: fixed;
+left:33%;
+top:34.3%;
+}
 .datemainpost1{
 /* @sitlausdeo copy: */
 font-family: UniversLTStd;
@@ -166,18 +187,18 @@ transform: translateX(1000px);
 
 
 }*/
-.whitebox {
+/*.whitebox {
 	position:fixed;
 	top:45%;
 	z-index: 2;
-/*	left:30%;*/
+	left:30%;
 	background:white;
 	left:80%;
 	width: 400px;
 	height: 400px;	
-}
+}*/
 
-.rectangle1 {
+/*.rectangle1 {
 	position: fixed;
 	width: 100%;
 	height: 32px;
@@ -197,7 +218,7 @@ transform: translateX(1000px);
 	background: #616161;
 	top:57%;
 /*	left:21.5%;*/
-	transition: all 0.8s ease-in-out;
+/*	transition: all 0.8s ease-in-out;
 }
 .rectangle2:hover{
 transform: translateX(1500px);
@@ -222,10 +243,10 @@ transform: translateX(1500px);
 	background: #616161;
 	top:63%;
 /*	left:21.5%;*/
-	transition: all 0.8s ease-in-out;
-}
+/*	transition: all 0.8s ease-in-out;
+}*/
 /*full length 2nd*/
-.rectangle3:hover{
+/*.rectangle3:hover{
 transform: translateX(1500px);
 
 }
@@ -250,9 +271,9 @@ transform: translateX(1500px);
 	background: #616161;
 	top:51%;
 	transition: all 0.8s ease-in-out;
-}
+}*/
 /*full length 3rd*/
-.rectangle5:hover{
+/*.rectangle5:hover{
 transform: translateX(1500px);
 
 }
@@ -268,9 +289,9 @@ transform: translateX(1500px);
 .rectangle6:hover{
 transform: translateX(1500px);
 
-}
+}*/
 /*full length 4th*/
-.rectangle7 {
+/*.rectangle7 {
 	position: fixed;
 	width: 100%;
 	height: 32px;
@@ -348,18 +369,17 @@ transform: translateX(1500px);
 .rectangle9:hover{
 transform: translateX(1500px);
 
-}
+}*/
 /*full length5th line*/
-.rectangle12 {
+/*.rectangle12 {
 	position: fixed;
 	width: 100%;
 	height: 32px;
 	background: #616161;
 	top:69.5%;
-/*	left:10%;*/
 	transition: all 0.8s ease-in-out;
 }
 .rectangle12:hover{
 transform: translateX(1500px);
-}
-	
+}*/
+

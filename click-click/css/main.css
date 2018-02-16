@@ -41,7 +41,6 @@ hr{
 	font-family: UniversLTStd;
 	color: black;
 	line-height: 37px;
-/*	padding-top:10%;*/
 	margin-right: 25%;
 	margin-left: 26%;
 	-webkit-animation-name: move;
@@ -63,24 +62,70 @@ hr{
     		margin-top: -1000px;
     	}
     }
-.page2link{
+/*.page2link{
 	color:black;
 }
 .page2link:hover{
 	color:#0B8DC8;
 }
+.ppost1:hover{
+	color:black;
 
-
+}
+.ppost1:hover{
+	color:#0B8DC8;
+}*/
+.ppost1{
+	color: black;
+}
+.ppost1:hover{
+	color: darkgray;
+}
 .author1{
-	/* Mohammad Ali */
+	font-family: UniversLTStd-Bold;
+	font-size: 18px;
+}
+.username1{
+
+	font-family: UniversLTStd;
+	font-size: 13px;
+	font-style: italic;
+	position:absolute;
+	top:0.5%;
+}
+.date1{
+	font-style: italic;
+	font-family: UniversLTStd;
+	font-size: 13px;
+	right:0%;
+	position:absolute;
+	top:1.5%;
+}
+
+.post1{
+	padding-top:2.5%;
+	font-family: UniversLTStd;
+	font-size: 20px;
+	line-height: 33px;
+}
+.post1:hover{
+	color: darkgray;
+}
+
+.post1hidden{
+	color:#FBFBFB;
+}
+
+
+/*.author1{
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
 	color: #000000;
-	/*padding-top:10%;*/
+
 }
 
 .username1{
-	/* @maglolz: */
+
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
@@ -104,12 +149,17 @@ hr{
 	font-size: 20px;
 	color: black;
 	line-height: 33px;
+}*/
+.ppost2{
+	color: black;
+}
+.ppost2:hover{
+	color: darkgray;
 }
 .author2{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	padding-bottom: 1.5
 }
 
@@ -118,7 +168,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:5.5%;
@@ -127,7 +176,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:52%;
@@ -139,11 +187,24 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post2:hover{
+	color: darkgray;
+}
+
+.post2hidden{
+	color:#FBFBFB;
+}
+
+.ppost3{
+	color: black;
+}
+.ppost3:hover{
+	color: darkgray;
+}
 .author3{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -152,7 +213,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:10.8%;
@@ -161,7 +221,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:52%;
@@ -173,11 +232,23 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post3:hover{
+	color: darkgray;
+}
+
+.post3hidden{
+	color:#FBFBFB;
+}
+.ppost4{
+	color: black;
+}
+.ppost4:hover{
+	color: darkgray;
+}
 .author4{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -186,7 +257,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:17.1%;
@@ -195,7 +265,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:52%;
@@ -207,11 +276,23 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post4:hover{
+	color: darkgray;
+}
+
+.post4hidden{
+	color:#FBFBFB;
+}
+.ppost5{
+	color: black;
+}
+.ppost5:hover{
+	color: darkgray;
+}
 .author5{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -220,7 +301,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:22.3%;
@@ -229,7 +309,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:52%;
@@ -241,11 +320,23 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post5:hover{
+	color: darkgray;
+}
+
+.post5hidden{
+	color:#FBFBFB;
+}
+.ppost6{
+	color: black;
+}
+.ppost6:hover{
+	color: darkgray;
+}
 .author6{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -254,7 +345,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:27.66%;
@@ -263,7 +353,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:52%;
@@ -275,11 +364,23 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post6:hover{
+	color: darkgray;
+}
+
+.post6hidden{
+	color:#FBFBFB;
+}
+.ppost7{
+	color: black;
+}
+.ppost7:hover{
+	color: darkgray;
+}
 .author7{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -288,7 +389,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:33%;
@@ -297,7 +397,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:52%;
@@ -309,11 +408,23 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post7:hover{
+	color: darkgray;
+}
+
+.post7hidden{
+	color:#FBFBFB;
+}
+.ppost8{
+	color: black;
+}
+.ppost8:hover{
+	color: darkgray;
+}
 .author8{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -322,7 +433,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:38.3%;
@@ -331,7 +441,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:56.9%;
@@ -343,11 +452,23 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post8:hover{
+	color: darkgray;
+}
+
+.post8hidden{
+	color:#FBFBFB;
+}
+.ppost9{
+	color: black;
+}
+.ppost9:hover{
+	color: darkgray;
+}
 .author9{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -356,7 +477,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:44.5%;
@@ -365,7 +485,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:66.1%;
@@ -376,11 +495,24 @@ hr{
 	font-size: 20px;
 	color: black;
 	line-height: 33px;
-}.author10{
+}
+.post9:hover{
+	color: darkgray;
+}
+
+.post9hidden{
+	color:#FBFBFB;
+}
+.ppost10{
+	color: black;
+}
+.ppost10:hover{
+	color: darkgray;
+}
+.author10{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -389,7 +521,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:50.7%;
@@ -398,7 +529,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:75.4%;
@@ -410,11 +540,23 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post10:hover{
+	color: darkgray;
+}
+
+.post10hidden{
+	color:#FBFBFB;
+}
+.ppost11{
+	color: black;
+}
+.ppost11:hover{
+	color: darkgray;
+}
 .author11{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -423,7 +565,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:56.9%;
@@ -432,7 +573,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:84.55%;
@@ -444,20 +584,30 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post11:hover{
+	color: darkgray;
+}
+
+.post11hidden{
+	color:#FBFBFB;
+}
+.ppost12{
+	color: black;
+}
+.ppost12:hover{
+	color: darkgray;
+}
 .author12{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
-
 .username12{
 	/* @maglolz: */
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:63.1%;
@@ -466,7 +616,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:93.75%;
@@ -478,11 +627,23 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post12:hover{
+	color: darkgray;
+}
+
+.post12hidden{
+	color:#FBFBFB;
+}
+.ppost13{
+	color: black;
+}
+.ppost13:hover{
+	color: darkgray;
+}
 .author13{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -491,7 +652,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:67.5%;
@@ -500,7 +660,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:93.75%;
@@ -512,11 +671,23 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post13:hover{
+	color: darkgray;
+}
+
+.post13hidden{
+	color:#FBFBFB;
+}
+.ppost14{
+	color: black;
+}
+.ppost14:hover{
+	color: darkgray;
+}
 .author14{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -525,7 +696,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:73.7%;
@@ -534,7 +704,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:93.75%;
@@ -546,11 +715,23 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post14:hover{
+	color: darkgray;
+}
+
+.post14hidden{
+	color:#FBFBFB;
+}
+.ppost15{
+	color: black;
+}
+.ppost15:hover{
+	color: darkgray;
+}
 .author15{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -559,7 +740,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:78.1%;
@@ -568,7 +748,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:93.75%;
@@ -580,11 +759,23 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post15:hover{
+	color: darkgray;
+}
+
+.post15hidden{
+	color:#FBFBFB;
+}
+.ppost16{
+	color: black;
+}
+.ppost16:hover{
+	color: darkgray;
+}
 .author16{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -593,7 +784,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:83.4%;
@@ -602,7 +792,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:93.75%;
@@ -614,11 +803,23 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post16:hover{
+	color: darkgray;
+}
+
+.post16hidden{
+	color:#FBFBFB;
+}
+.ppost17{
+	color: black;
+}
+.ppost17:hover{
+	color: darkgray;
+}
 .author17{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -627,7 +828,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:89.65%;
@@ -636,7 +836,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:93.75%;
@@ -648,11 +847,23 @@ hr{
 	color: black;
 	line-height: 33px;
 }
+.post17:hover{
+	color: darkgray;
+}
+
+.post17hidden{
+	color:#FBFBFB;
+}
+.ppost18{
+	color: black;
+}
+.ppost18:hover{
+	color: darkgray;
+}
 .author18{
 	/* Mohammad Ali */
 	font-family: UniversLTStd-Bold;
 	font-size: 18px;
-	color: #000000;
 	/*padding-top:10%;*/
 }
 
@@ -661,7 +872,6 @@ hr{
 	font-family: UniversLTStd;
 	font-size: 13px;
 	font-style: italic;
-	color: #000000;
 	padding-top:1.5%;
 	position:absolute;
 	top:94.95%;
@@ -670,7 +880,6 @@ hr{
 	font-style: italic;
 	font-family: UniversLTStd;
 	font-size: 13px;
-	color: #000000;
 	right:0%;
 	position:absolute;
 	top:93.75%;
@@ -681,5 +890,12 @@ hr{
 	font-size: 20px;
 	color: black;
 	line-height: 33px;
+}
+.post18:hover{
+	color: darkgray;
+}
+
+.post18hidden{
+	color:#FBFBFB;
 }
 
