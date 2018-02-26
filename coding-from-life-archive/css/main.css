@@ -256,7 +256,7 @@ body{
 }
 .emil{
 	position: absolute;
-	top:150%;
+	top:150.5%;
 	left:40%;
 	transform:rotate(16deg);
 }
@@ -267,12 +267,12 @@ body{
 }
 .emily{
 	position: absolute;
-	top:235%;
+	top:236%;
 	right:44%;
 }
 .yaren{
 	position: absolute;
-	top:270.5%;
+	top:271.5%;
 	right:40%;
 }
 .jahyun{
