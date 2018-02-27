@@ -50,6 +50,16 @@ body{
 	color:white;
 	position:absolute;
 }
+.no{
+	font-size:1vw;
+	bottom:10%;
+	left:49%;
+	color:white;
+	position:absolute;
+}
+.no:hover{
+	color:#a3a3c2;
+}
 .three:hover{
 	color:#a3a3c2;
 }
@@ -233,6 +243,11 @@ body{
 	color:white;
 	text-align:left;
 }
+.names2{
+	font-size:2vw;
+	color:white;
+	text-align:left;
+}
 .names:hover{
 	color:#a3a3c2;
 }
@@ -247,6 +262,28 @@ body{
 	top:83%;
 	right:40%;
 	transform:rotate(-15deg);
+}
+.kristen{
+	position: absolute;
+	top:61.1%;
+	left:40%;
+	transform:rotate(-10deg);
+}
+.yangchen2{
+	position: absolute;
+	top:50%;
+	right:30%;
+}
+.yangchen2:hover{
+	color:#a3a3c2;
+}
+.kristen2{
+	position: absolute;
+	top:50%;
+	left:30%;
+}
+.kristen2:hover{
+	color:#a3a3c2;
 }
 .vincent{
 	position: absolute;
