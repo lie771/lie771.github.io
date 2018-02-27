@@ -33,6 +33,12 @@ img{
 .one:hover img {
 	opacity: 1;
 }
+.two img {
+	opacity: 0;
+}
+.two:hover img {
+	opacity: 1;
+}
 /*.custom {
   cursor: url(./img/human.png), auto;
 }*/
