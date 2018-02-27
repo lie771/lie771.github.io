@@ -3,8 +3,12 @@
 	<head>
 	    <title>Emily's Portfolio</title>
 	    <meta charset="UTF-8">
+	     <link href='./css/reset.css' media='all' rel='stylesheet' type='text/css' />
+   		 <link href='./css/main.css' media='all' rel='stylesheet' type='text/css' />
 	    <style>
-	    	a:link {
+	    body, html {
+       cursor: url(./img/human.png), auto; }
+/*	    	a:link {
 	    		color:green;
 	    		background-color: transparent;
 	    		text-decoration: none;
@@ -23,16 +27,31 @@
 	    		color:red;
 	    		background-color: transparent;
 	    		text-decoration: underline;
-	    	}
+	    	}*/
 	    </style>
 	</head>
 	<body>
-		<h1 style="color:salmon ">EMILY LI</h1>
-		<a href="https://lie771.github.io/click-click/index.html">Click Click</a>
-		<br>
-		<a href="https://lie771.github.io/personal-journey/index.html">Personal Journey</a>
-		<br>
-		<a href="https://lie771.github.io/personal-journey-archive/index.html">Personal Journey Archive</a>
-		
+		<h1 class="emily">EMILY LI</h1>
+		<div class="projects">
+			<div class="one">
+				<a class="title click" href="https://lie771.github.io/click-click/index.html">click click</a>
+				<img src="/img/cursor.png">
+			</div>
+			<br>
+			<div class="one">
+				<a class="title personal" href="https://lie771.github.io/personal-journey/index.html">personal journey</a>
+			</div>
+			<br>
+			<div class="one">
+				<a class="title personalarchive" href="https://lie771.github.io/personal-journey-archive/index.html">personal journey archive</a>
+			</div>
+			<div class="one">
+				<a class="title coding" href="https://lie771.github.io/coding-from-life=/index.html">coding from life</a>
+			</div>
+			<div class="one">
+				<a class="title codingarchive" href="https://lie771.github.io/coding-from-life-archive/index.html">coding from life archive</a>
+			</div>
+		<div class="custom"></div>
+		</div>
 	</body>
 </html>
