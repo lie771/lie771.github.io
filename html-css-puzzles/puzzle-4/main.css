@@ -11,30 +11,30 @@ body{
 
 }
 .one{
-	width:10%;
-	height:23%;
+	width:15%;
+	height:33.33%;
 	background-color: rgb(64,78,175	);
 	left:0%;
 	position:absolute;
 }
 .two{
-	width:10%;
-	height:23%;
+	width:15%;
+	height:33.33%;
 	background-color: rgb(64,78,175	);
 	right:0%;
 	position:absolute;
 }
 .three{
-	width:10%;
-	height:23%;
+	width:15%;
+	height:33.33%;
 	background-color: rgb(64,78,175	);
 	right:0%;
 	bottom:0%;
 	position:absolute;
 }
 .four{
-	width:10%;
-	height:23%;
+	width:15%;
+	height:33.33%;
 	background-color: rgb(64,78,175	);
 	left:0%;
 	bottom:0%;
