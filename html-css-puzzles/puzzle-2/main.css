@@ -1,0 +1,30 @@
+html,body { width: 100%; height: 100%; }
+body{
+	margin:2%;
+
+}
+.box1{
+	border:2px solid black;
+	padding-right:20px;
+	width:94%;
+	display:inline-block;
+	margin-bottom:2%;
+}
+
+.topic{
+	font-size: 40px;
+	font-family: Arial;
+	padding-left:20px;
+	margin-bottom:50px;
+}
+.author{
+	font-size: 20px;
+	font-family: Courier;
+	padding-left:20px;
+}
+/*.box2{
+	border:2px solid black;
+	padding-right:20px;
+	width:94%;
+	display:inline-block;
+}*/
