@@ -2,21 +2,21 @@ html,body { width: 100%; height: 100%; }
 body{
 	margin:0%;
 }
-.square1{
+.one{
 	width:33.33%;
 	height:33.33%;
 	float:left;
 	background-color: rgb(207,221,78);
 	display: inline-block;
 }
-.square2{
+.two{
 	width:33.33%;
 	height:33.33%;
 	float:left;
 	background-color:white;
 	display: inline-block;
 }
-.square3{
+.three{
 	width:33.33%;
 	height:33.33%;
 	float:left;
@@ -24,42 +24,42 @@ body{
 	display: inline-block;
 }
 
-.square4{
+.four{
 	width:33.33%;
 	height:33.33%;
 	float:left;
 	background-color:white;
 	display: inline-block;
 }
-.square5{
+.five{
 	width:33.33%;
 	height:33.33%;
 	float:left;
 	background-color:rgb(83,101,113);
 	display: inline-block;
 }
-.square6{
+.six{
 	width:33.33%;
 	height:33.33%;
 	float:left;
 	background-color:white;
 	display: inline-block;
 }
-.square7{
+.seven{
 	width:33.33%;
 	height:33.33%;
 	float:left;
 	background-color: rgb(207,221,78);
 	display: inline-block;
 }
-.square8{
+.eight{
 	width:33.33%;
 	height:33.33%;
 	float:left;
 	background-color:white;
 	display: inline-block;
 }
-.square9{
+.nine{
 	width:33.33%;
 	height:33.33%;
 	float:left;
