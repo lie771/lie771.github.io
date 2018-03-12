@@ -228,7 +228,7 @@ body{
 
 .indivphoto{
 	position: absolute;
-	width:60%;
+	width:850px;
 	height:auto;
 	right:5%;
 	bottom:5%;
@@ -236,7 +236,6 @@ body{
 	margin-bottom: 20px;
 	top:15%;
 }
-
 .indivbody{
 	position: absolute;
 	font-family: FTB;
@@ -244,7 +243,35 @@ body{
 	top:20%;
 	left:20%;
 }
-/*.arrowleft{
+
+@media (max-width: 950px) {
+  .indivphoto{
+  	width:100%;
+  	left:0;
+	top:20%;
+  	transition-duration: 0.7s;
+  }
+	.indivbody{
+	top:60%;
+  	font-size: 25px;
+  	transition-duration: 5s;
+  	right:5%;
+  }
+  .about{
+  	transform: rotate(0deg);
+  	right:5px;
+  	text-align: right;
+	top:80px;
+  }
+  .collection{
+  	transform: rotate(0deg);
+  	right:20px;
+  	text-align: right;
+	top:110px;
+  }
+}
+
+.arrowleft{
 	transform:scale(2);
 	position:fixed;
 	transform: rotate(90deg);
@@ -274,4 +301,4 @@ body{
 	width:40px;
 	right:270px;
 	bottom:38px;
-}*/
+}
