@@ -252,13 +252,15 @@ body{
   	transition-duration: 0.7s;
   }
 	.indivbody{
-	top:60%;
-  	font-size: 25px;
+	top:55%;
+  	font-size: 35px;
+  	padding:10%;
   	transition-duration: 5s;
   	right:5%;
   }
   .about{
   	transform: rotate(0deg);
+  	font-size: 20px;
   	right:5px;
   	text-align: right;
 	top:80px;
@@ -266,8 +268,9 @@ body{
   .collection{
   	transform: rotate(0deg);
   	right:20px;
+  	font-size: 20px;
   	text-align: right;
-	top:110px;
+	top:100px;
   }
 }
 
