@@ -14,13 +14,10 @@ body{
 	width:30%;
 	height:auto;
 	margin-right:0;
-/*	float:right;*/
 	right:0px;
 	top:70px;
 }
 .ink{
-/*	position:absolute;*/
-/*	display: inline-block;*/
 	width:370px;
 	right:0;
 	padding:0;
@@ -31,7 +28,6 @@ body{
 	position:absolute;
 	width:30%;
 	height:auto;
-/*	float:left;*/
 	right:730px;
 	top:80px;
 	display: inline-block;
@@ -142,17 +138,6 @@ body{
 	right:1220px;
 
 }
-/*
-.invisible{
-	display:none;
-	position:absolute;
-	width:400px;
-	height:30px;
-	transform: rotate(-12deg);
-	z-index: 5;
-	left:900px;
-	background-color:coral;
-}*/
 .a{
 	padding-bottom: 48px;
 }
@@ -183,59 +168,56 @@ body{
 	padding-bottom: 40px;
 	padding-right:120px;
 }
-
-
 .ah{
-	padding-top:30px;
-	padding-bottom: 30px;
-	padding-right:30px;
+	padding-top:50px;
+	padding-bottom: 70px;
+	padding-right:120px;
 }
 .ai{
-	padding-top:70px;
-	padding-bottom: 30px;
-	padding-right:70px;
+	padding-top:60px;
+	padding-bottom: 60px;
+	padding-right:100px;
 }
 .aj{
-	padding-top:20px;
-	padding-bottom: 30px;
-	padding-right:70px;
+	padding-top:40px;
+	padding-bottom: 80px;
+	padding-right:120px;
 }
 .ak{
-	padding-top:72px;
-	padding-bottom: 40px;
-	padding-right:50px;
+	padding-top:50px;
+	padding-bottom:78px;
+	padding-right:120px;
 }
+
 .al{
-	padding-top:35px;
-	padding-bottom: 30px;
-	padding-right:86px;
+	padding-top:60px;
+	padding-bottom:80px;
+	padding-right:110px;
 }
 .am{
-	padding-top:53px;
-	padding-bottom: 30px;
-	padding-right:76px;
+	padding-right:100px;
+	padding-top:40px;
+	padding-bottom: 65px;
 }
 
 .an{
-	padding-top:53px;
-	padding-bottom: 30px;
-	padding-right:76px;
+	padding-right:100px;
+	padding-top:70px;
+	padding-bottom: 45px;
 }
 .ao{
-	padding-top:40px;
-	padding-bottom: 30px;
-	padding-right:40px;
+	padding-right:120px;
+	padding-top:70px;
+	padding-bottom: 55px;
 }
 .ap{
-	padding-top:45px;
-	padding-bottom: 30px;
-	padding-right:60px;
+	padding-top:50px;
+	padding-bottom:60px;
+	padding-right:110px;
 }
-.ap{
-	padding-top:45px;
-	padding-bottom: 30px;
-	padding-right:60px;
-}
+
+
+
 .aq{
 	padding-top:65px;
 	padding-bottom: 30px;
