@@ -4,10 +4,75 @@ html,body { width: 100%; height: 100%; }
 	@font-face {font-family: "FTB"; src: url("../fonts/FTB.ttf"); }
 	@font-face {font-family: "FTLC"; src: url("../fonts/FTLC.ttf"); }
 body{
-	margin:0%;
+	margin:0;
 	font-family: FTB ;
+}
+
+.pens{
+	position:absolute;
+	display: inline-block;
+	width:30%;
+	height:auto;
+	margin-right:0;
+/*	float:right;*/
+	right:0px;
+	top:70px;
+}
+.ink{
+/*	position:absolute;*/
+/*	display: inline-block;*/
+	width:370px;
+	right:0;
+	padding:0;
+	margin-right:0;
+}
+
+.strokes{
+	position:absolute;
+	width:30%;
+	height:auto;
+/*	float:left;*/
+	right:730px;
+	top:80px;
+	display: inline-block;
+}
+.inkline{
+	display: inline-block;
+	padding: 80px;
+	left:500px;
+	width:900px;
+	height: auto;
+}
+/*.pen{
+	top:20px;
+	left:0;
+	padding:45px;
 
 }
+.test{
+	position:absolute;
+	right:0;
+	float:left;
+}
+.inkline{
+	right:270px;
+	margin-top:100px;
+	margin-bottom: 100px;
+	width:700px;
+	height:auto;
+	position:absolute;
+	display:inline-block;
+	padding-bottom: 50px;
+}*/
+/*.inkline{
+	position: absolute;
+	top:20px;
+	width:1200px;
+	height:auto;
+	display: inline-block;
+	transform: scale(0.6);
+	padding-bottom: 45px;
+}*/
 .nav{
 	font-family: FTB ;
 	font-size: 15px;
@@ -21,7 +86,7 @@ body{
 	color:#848484;
 	z-index: 5;
 	display: inline-block;
-	padding-right:15px;
+	margin-right:15px;
 	transform: rotate(90deg); 
 	padding-bottom: 5px;
 }
@@ -77,37 +142,49 @@ body{
 	right:1220px;
 
 }
-.inkline{
-	width:1200px;
-	height:auto;
-	display: inline-block;
-	transform: scale(0.6);
-}
+/*
+.invisible{
+	display:none;
+	position:absolute;
+	width:400px;
+	height:30px;
+	transform: rotate(-12deg);
+	z-index: 5;
+	left:900px;
+	background-color:coral;
+}*/
 .a{
-	padding-bottom: 45px;
+	padding-bottom: 48px;
 }
 .ab{
-	padding-bottom: 55px;
+	padding-right:30px;
+	padding-top:84px;
+
 }
 .ac{
-	padding-bottom: 80px;
+	padding-top:60px;
+	padding-bottom: 60px;
 }
 .ad{
-	padding-bottom: 30px;
+	padding-top:100px;
+	padding-bottom: 60px;
 }
 .ae{
-	padding-top:68px;
-	padding-bottom: 68px;
+	padding-right:90px;
+	padding-top:80px;
 }
 .af{
-	padding-top:45px;
-	padding-bottom: 45px;
+	padding-right:100px;
+	padding-top:60px;
+	padding-bottom: 65px;
 }
 .ag{
-	padding-top:40px;
+	padding-top:70px;
 	padding-bottom: 40px;
-	padding-right:80px;
+	padding-right:120px;
 }
+
+
 .ah{
 	padding-top:30px;
 	padding-bottom: 30px;
@@ -261,7 +338,7 @@ body{
   .about{
   	transform: rotate(0deg);
   	font-size: 20px;
-  	right:5px;
+  	right:3px;
   	text-align: right;
 	top:80px;
   }
