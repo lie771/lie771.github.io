@@ -9,13 +9,16 @@ body{
 }
 .content{
 	position:absolute;
+	margin-right:0%;
 	margin:0;
-	right:0;
-	width:1225px;
+	/*padding-left:40px;*/
+	left:0px;
+	width:100%;
 	height:auto;
-
+	top:70px;
+	/*display: inline-block;*/
 }
-.pens{
+/*.pens{
 	position:absolute;
 	display: inline-block;
 	width:30%;
@@ -23,12 +26,27 @@ body{
 	margin:0;
 	right:0px;
 	top:70px;
-}
+}*/
 .ink{
-	width:370px;
-	right:0;
-	padding:0;
-	margin-right:0;
+	/*width:370px;*/
+	max-width:auto;
+	height:auto;
+	/*left:500px;*/
+	position:relative;
+	overflow: hidden;
+	right:0%;
+	margin:0%;
+	/*display: block;*/
+	/*transform: scale(2.5);*/
+	opacity: 1;
+}
+.ink:hover{
+	opacity: 0.3;
+}
+.groupball{
+	position:absolute;
+	width:100%;
+	height:auto;
 }
 
 .strokes{
@@ -39,24 +57,56 @@ body{
 	top:80px;
 	display: inline-block;
 }
-.inkline{
+.strokes1{
+	padding-top:15px;
+}
+.strokes2{
+	padding-top:0px;
+}
+.strokes3{
+	padding-top:28px;
+}
+.strokes4{
+	padding-top:40px;
+}
+.strokes5{
+	padding-top:30px;
+}
+.strokes6{
+	padding-top:60px;
+}
+/*.inkline{
 	display: inline-block;
 	padding: 80px;
 	left:500px;
 	width:900px;
-	height: auto;
+	height: auto;*/
+	/*opacity:1;*/
 }
+/*.inkline:hover{
+	opacity: 0.2;
+}*/
+
+/*.pen1:hover, .inkline:hover, .ink:hover {
+	opacity:1;
+	border: 1px solid red;
+}
+.pen1:hover, .inkline:hover, .ink:hover {
+	opacity:0;
+}*/
 
 .nav{
 	font-family: FTB ;
 	font-size: 15px;
 	color:#848484;
+	display: inline-block;
 }
 .about{
 	position:fixed;
+	/*display: inline-block;*/
 	float:left;
 	right:24px;
-	top:90px;
+	top:80px;
 	color:#848484;
 	z-index: 5;
 	display: inline-block;
@@ -65,7 +115,8 @@ body{
 	padding-bottom: 5px;
 }
 .about:hover {
-  border-bottom: 2px solid lightgray;
+  border-bottom: 2px solid #c4c2c2;
+  color:#c4c2c2;
 }
 .ballcollection{
 	position:fixed;
@@ -79,12 +130,88 @@ body{
 	z-index: 5;
 }
 .ballcollection:hover {
-  border-bottom: 2px solid lightgray;
+  border-bottom: 2px solid #c4c2c2;
+  color:#c4c2c2;
+}
+.calligcollection{
+	position:fixed;
+	float:left;
+	right:-15px;
+	top:220px;
+	color:#848484;
+	display: inline-block;
+	transform: rotate(90deg); 
+	padding-bottom: 5px;
+	z-index: 5;
+}
+.calligcollection:hover {
+  border-bottom: 2px solid #c4c2c2;
+  color:#c4c2c2;
+}
+.brushpencollection{
+	position:fixed;
+	float:left;
+	right:-12px;
+	top:220px;
+	color:#848484;
+	display: inline-block;
+	transform: rotate(90deg); 
+	padding-bottom: 5px;
+	z-index: 5;
+}
+.brushpencollection:hover {
+  border-bottom: 2px solid #c4c2c2;
+  color:#c4c2c2;
+}
+.paintbrushcollection{
+	position:fixed;
+	float:left;
+	right:-15px;
+	top:220px;
+	color:#848484;
+	display: inline-block;
+	transform: rotate(90deg); 
+	padding-bottom: 5px;
+	z-index: 5;
+}
+.paintbrushcollection:hover {
+  border-bottom: 2px solid #c4c2c2;
+  color:#c4c2c2;
+}
+.inkcollection{
+	position:fixed;
+	float:left;
+	right:-2px;
+	top:220px;
+	color:#848484;
+	display: inline-block;
+	transform: rotate(90deg); 
+	padding-bottom: 5px;
+	z-index: 5;
+}
+.inkcollection:hover {
+  border-bottom: 2px solid #c4c2c2;
+  color:#c4c2c2;
+}
+.markercollection{
+	position:fixed;
+	float:left;
+	right:-2px;
+	top:220px;
+	color:#848484;
+	display: inline-block;
+	transform: rotate(90deg); 
+	padding-bottom: 5px;
+	z-index: 5;
+}
+.markercollection:hover {
+  border-bottom: 2px solid #c4c2c2;
+  color:#c4c2c2;
 }
 .collection{
 	position:fixed;
 	float:left;
-	right:26px;
+	right:13px;
 	top:190px;
 	color:#848484;
 	display: inline-block;
@@ -93,7 +220,8 @@ body{
 	z-index: 5;
 }
 .collection:hover {
-  border-bottom: 2px solid lightgray;
+  border-bottom: 2px solid #c4c2c2;
+  color:#c4c2c2;
 }
 .homee{
 	padding-bottom:40px;
@@ -133,9 +261,18 @@ body{
 .home{
 	position:fixed;
 	z-index: 3;
-	/*left:-15px;*/
 	transform: scale(0.4);
 	margin:0;
+	left:-10px;
+	padding-right:10px;
+	top:120px;
+	font-size: 22px;
+	color:#848484;
+	z-index: 5;
+	transform: rotate(90deg);
+}
+.home:hover{
+	color:#c4c2c2;	
 }
 
 .stroke{
@@ -147,7 +284,7 @@ body{
 	right:1220px;
 
 }
-.a{
+/*.a{
 	padding-bottom: 48px;
 }
 .ab{
@@ -237,7 +374,7 @@ body{
 }
 .b{
 	padding-right:105px;
-	padding-top:55px;
+	padding-top:30px;
 	padding-bottom: 65px;
 }
 .bb{
@@ -394,14 +531,7 @@ body{
 	padding-top:70px;
 	padding-bottom: 5px;
 }
-.threewords{
-	position: absolute;
-	font-size: 40px;
-	font-family: FTB;
-	bottom:10%;
-	right:80px;
-	text-align:right; 
-}
+*/
 .word{
 	padding-bottom:20px;
 }
@@ -409,11 +539,27 @@ body{
 	position: absolute;
 	bottom:100px;
 	text-align:center;
-	left:50%;
+	left:30%;
 	top:50%;
 	transform: translate( -50%);
-	/*padding: 30%;*/
-	font-size: 24px
+	font-size: 12px
+}
+
+.aboutparahaiku{
+	position: absolute;
+	font-family: FTB;
+	font-size:30px;
+	left:400px;
+	bottom:35%;
+}
+
+.aboutimage{
+	position:absolute;
+	width:300px;
+	height:auto;
+	bottom:40px;
+	left:180px;
+
 }
 
 .indivphoto{
@@ -423,6 +569,22 @@ body{
 	height:auto;
 	width:100%;
 	left:0;
+	object-fit: cover;
+	height: 100%;
+}
+
+.fit-top {
+	object-position: top;
+}
+
+.fit-bottom {
+	object-position: bottom;
+}
+.fit-left {
+	object-position: left;
+}
+.fit-right {
+	object-position: right;
 }
 
 .indivbody{
@@ -454,50 +616,129 @@ body{
 	left:130px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 900px) {
+  .home{
+  	transform: rotate(0deg);
+  	top:40px;
+  	left:45px;
+  }
+  .content{
+  	right:-15%;
+  	transition-duration: 3s;
+  }
+
   .indivphoto{
   	width:100%;
+  	height:auto;
   	left:0;
-	top:20%;
-  	transition-duration: 0.7s;
+	top:110px;
+  	transition-duration: 5s;
   }
-	.indivbody{
-	top:55%;
+  .indivbody{
+	bottom:20px;
   	font-size: 35px;
   	padding:10%;
-  	transition-duration: 5s;
+  	transition-duration: 2s;
   	right:5%;
   }
+
+ /* placement not working*/
+
+  .indivbody2{
+	bottom:300px;
+  	font-size: 35px;
+  	padding:10%;
+  	transition-duration: 2s;
+  	left:5%;
+  }
+  .indivbody3{
+	bottom:10px;
+  	font-size: 35px;
+  	padding:10%;
+  	transition-duration: 2s;
+  	right:5%;
+  }
+    .indivbody4{
+	bottom:400px;
+  	font-size: 35px;
+  	padding:10%;
+  	transition-duration: 2s;
+  	left:5%;
+  }
+
   .about{
   	transform: rotate(0deg);
   	font-size: 20px;
-  	right:3px;
+  	right:30px;
   	text-align: right;
-	top:80px;
+	top:40px;
   }
   .collection{
   	transform: rotate(0deg);
-  	right:20px;
+  	right:45px;
   	font-size: 20px;
   	text-align: right;
-	top:100px;
+	top:80px;
+  }
+    .ballcollection {
+  	transform: rotate(0deg);
+  	right:45px;
+  	font-size: 20px;
+  	text-align: right;
+	top:70px;
+  }
+  .paintbrushcollection {
+  	transform: rotate(0deg);
+  	right:45px;
+  	font-size: 20px;
+  	text-align: right;
+	top:70px;
+  }
+  .markercollection {
+  	transform: rotate(0deg);
+  	right:45px;
+  	font-size: 20px;
+  	text-align: right;
+	top:70px;
+  }
+  .brushpencollection {
+  	transform: rotate(0deg);
+  	right:45px;
+  	font-size: 20px;
+  	text-align: right;
+	top:70px;
+  }
+  .calligcollection {
+  	transform: rotate(0deg);
+  	right:45px;
+  	font-size: 20px;
+  	text-align: right;
+	top:70px;
+  }
+  .inkcollection {
+  	transform: rotate(0deg);
+  	right:45px;
+  	font-size: 20px;
+  	text-align: right;
+	top:70px;
+  }
+  .arrowdown{
+  	transform: rotate(90deg);
+  }
+  /*not rotating*/
+  .arrowup{
+  	transform: rotate(90deg);
   }
 }
 
 .arrowgroup{
 	position:fixed;
-	transform: scale(2);
+	transform: scale(2)rotate(0deg);
 	width:10px;
 	height:50px;
 	right:50px;
 	bottom:85px;
 }
-/*.arrow{
-	position:absolute;
-	transform: rotate(90deg);
-	bottom:5%;
-	color:lightgray;
-}*/
 .left{
 	right:0;
 }
@@ -506,30 +747,32 @@ body{
 	left:0;
 	bottom:0;
 }
-/*.arrow1{
-	bottom:10px;
-}*/
+
 .arrowdown{
 	position:absolute;
 	width: 0; 
 	height: 0; 
 	border-left: 4px solid transparent;
 	border-right: 4px solid transparent;
-	border-bottom: 8px solid black;
+	border-bottom: 8px solid #848484;
 	bottom:50px;
 }
-/*.arrowdown:hover{
-	border:lightgray;
-}*/
+.arrowdown:hover{
+	border-bottom: 8px solid #c4c2c2;	
+}
+
 .arrowup{
 	position:absolute;
 	width: 0; 
   	height: 0; 
   	border-left: 4px solid transparent;
   	border-right: 4px solid transparent;
-  	border-bottom: 8px solid black;
-  	transform: rotate(180deg);
+  	border-top: 8px solid #848484;
+  	transform: rotate(360deg);
   	bottom:0px;
+}
+.arrowup:hover{
+	border-top: 8px solid #c4c2c2;	
 }
 
 .line{
