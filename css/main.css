@@ -119,3 +119,11 @@ body{
 	transform: translate(-50%, -50%);
 
 }
+.masterpiece{
+	position: absolute;
+	top:80%;
+	left:50%;
+	display:inline-block;
+	transform: translate(-50%, -50%);
+
+}
