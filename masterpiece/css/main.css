@@ -1,11 +1,11 @@
 /*html,body { width: 100%; height: 300%; }
 */
 /* Changing fonts */
-	@font-face {font-family: "FTB"; src: url("../fonts/FTB.ttf"); }
-	@font-face {font-family: "FTLC"; src: url("../fonts/FTLC.ttf"); }
+	@font-face {font-family: "Trade_Gothic_LT_Bold"; src: url("../fonts/Trade_Gothic_LT_Bold.ttf"); }
+	@font-face {font-family: "Trade_Gothic_LT"; src: url("../fonts/Trade_Gothic_LT.ttf"); }
+	@font-face {font-family: "Trade_Gothic_LT_Light"; src: url("../fonts/Trade_Gothic_LT_Light.ttf"); }
 body{
 	margin:0;
-	font-family: FTB ;
 	overflow-x:hidden;
 }
 
@@ -15,6 +15,7 @@ body{
  	left:10%;
  	right:10%;
 }
+
 
 .usfixed{
 	position:fixed;
@@ -142,24 +143,63 @@ body{
 	height: 100%;*/
 
 }
+.yuanscrollimage::-webkit-scrollbar {
+display: none;
+}
+.usscrollimage::-webkit-scrollbar {
+display: none;
+}
+.usscroll::-webkit-scrollbar {
+display: none;
+}
+.yuanscroll::-webkit-scrollbar {
+display: none;
+}
+body::-webkit-scrollbar {
+display: none;
+}
+/*.usscroll::-webkit-scrollbar-track {
+display: none;
+}
+.usscroll::-webkit-scrollbar-thumb {
+display: none;
+}*/
 .hstrokes1{
 	position: absolute;
     height: 1px;
     border: 0;
-    border-top: 2px solid lightgray;
+    border-top: 2px solid #eaeaea;
     right:0;
     bottom:0;
     z-index: 8;
-    width:40px;
+    width:20px;
    /* padding-bottom: 10%;*/
 }
 .vstrokes1{
 	position: absolute;
-    height: 40px;
+    height: 20px;
     border: 0;
-    border-right: 2px solid lightgray;
+    border-right: 2px solid #eaeaea;
     left:49%;
     top:0;
     z-index: 8;
     width:1px;
 }
+.para{
+	position: fixed;
+	bottom:100px;
+	width:15%;
+	height:auto;
+	color:lightgray;
+	left:15%;
+	font-family: Trade_Gothic_LT;
+}
+.artname{
+	font-family: Trade_Gothic_LT_Bold;
+	font-size: 17px;
+}
+.artist, .year, .dimension{
+	font-size: 13px;
+	padding-bottom:3px;
+}
+
