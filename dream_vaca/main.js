@@ -21,7 +21,7 @@
 //     return Math.floor(Math.random() * (max - min + 1)) + min;
 // }
 
-$("#move").mouseenter(function () {
+$(".icecream").mouseenter(function () {
     $(this).animate({
         top: Math.random() * 300
     }, 100);
