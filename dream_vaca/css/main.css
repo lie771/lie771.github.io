@@ -5,28 +5,14 @@ body{
 	background-color: #ff1a8c;
 	margin:0;
 }
-.icecream{
+
+#icecream{
 	position:absolute;
 	width:20%;
 	height:auto;
-/*	left:50%;
+	margin:0;
+	left:50%;
 	top:50%;
-	transform: translate(-50%, -50%);*/
+	transform: translate(-50%, -50%);
 	transition-duration: 0.1s;
-/*	cursor: pointer;*/
 }
-.one{
-	opacity: 1;
-}
-.two, .three, .four, .five, .six{
-	opacity: 0;
-}
-
-/*#move {
-    width:50px;
-    height:50px;
-    border: 1px solid green;
-    background-color: gray;
-    text-align:center;
-    position:relative;
-}*/
