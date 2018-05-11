@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("html").css("cursor", "url(./img/cursor.png), auto");
+  // $("html").css("cursor", "url(./img/cursor.png), auto");
   var images = new Array('a.png', 'b.png','c.png','d.png','e.png','f.png','g.png');
   var images2 = new Array('a2.png', 'b2.png','c2.png','d2.png','e2.png','f2.png','g2.png');
   var images3 = new Array('a3.png', 'b3.png','c3.png','d3.png','e3.png','f3.png','g3.png');
@@ -19,6 +19,11 @@ $(document).ready(function() {
   var coneInterval3;
   var coneInterval4;
   var coneInterval5;
+
+var cssHSL = "hsl(" + 360 * Math.random() + ',' +
+                 (25 + 70 * Math.random()) + '%,' + 
+                 (85 + 10 * Math.random()) + '%)';
+document.body.style.backgroundColor = cssHSL;
 
   function assignMousemoveEventListener() {
     // Change the mouse event to use `mousemove`, which will be triggered on any
@@ -76,6 +81,7 @@ $(document).ready(function() {
     } else {
       // Reset the index of the cone to melt, or do whatever else you want to do at this point!
       coneToMeltIndex = 0;
+
     }
 
     console.log('coneToMeltIndex', coneToMeltIndex);
@@ -91,14 +97,11 @@ $(document).ready(function() {
       meltCone();
     }, 1000);
 
-	  var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
-	  $('body').css("background",hue);
-	  var i=0;
-      document.body.style.background = hue[i];
-      i++;
-      if(i == hue.length) {
-      i = 0;
- 	  }
+    var cssHSL = "hsl(" + 360 * Math.random() + ',' +
+                     (25 + 70 * Math.random()) + '%,' + 
+                     (85 + 10 * Math.random()) + '%)';
+
+    document.body.style.backgroundColor = cssHSL;
   });
 
   // This getRandomInt function wasn't actually doing what you want, I don't think...
@@ -110,4 +113,36 @@ $(document).ready(function() {
   function getRandomInt(min, max) {
     return min + Math.floor(Math.random() * (max - min + 1));
   }
+  // function buildColor( r, g, b ) {
+  //   return "rgb(" + r + ", " + g + ", " + b + ")";  
+  // }
+
+  // function colorR(){
+  //     var red = getRandomInt(198,239);
+  //     var green = getRandomInt(7,88);
+  //     var blue = getRandomInt(27,128);
+  //     var color = buildColor(red, green, blue);
+
+  //     var red2 = getRandomInt(120,179);
+  //     var green2 = 15;
+  //     var blue2 = getRandomInt(45,134);
+  //     var color2 = buildColor(red2, green2, blue2);
+
+  //     var red3 = getRandomInt(35,180);
+  //     var green3 = getRandomInt(114,214);
+  //     var blue3 = 247;
+  //     var color3 = buildColor(red3, green3, blue3);
+
+  //     var colorPicker = [ color, color2, color3  ];
+  //     var randomColor = colorPicker[Math.floor(Math.random() * colorPicker.length)];
+  //     $('body').css("background",randomColor);
+  //     var i=0;
+  //     document.body.style.background = randomColor[i];
+  //     i++;
+  //     if(i == randomColor.length) {
+  //     i = 0;
+  //     }
+
+  // }
+
 });

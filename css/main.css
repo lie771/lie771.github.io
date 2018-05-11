@@ -148,3 +148,10 @@ body{
 	display:inline-block;
 	transform: translate(-50%, -50%);
 }
+.dream{
+	position: absolute;
+	top:130%;
+	left:50%;
+	display:inline-block;
+	transform: translate(-50%, -50%);
+}
