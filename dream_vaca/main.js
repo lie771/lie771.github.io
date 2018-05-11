@@ -1,11 +1,13 @@
 
 
 $(document).ready(function() {
-  var images = new Array('a.png', 'b.png','c.png','d.png','e.png','f.png','g2.png');
-  var images2 = new Array('aa.png', 'bb.png','cc.png','dd.png','ee.png','ff.png','gg.png');
-  var images3 = new Array('aa.png', 'bb.png','cc.png','dd.png','ee.png','ff.png','gg.png');
-  var images4 = new Array('aa.png', 'bb.png','cc.png','dd.png','ee.png','ff.png','gg.png');
-  var images5 = new Array('aa.png', 'bb.png','cc.png','dd.png','ee.png','ff.png','gg.png');
+  var images = new Array('a.png', 'b.png','c.png','d.png','e.png','f.png','g.png');
+  var images2 = new Array('a2.png', 'b2.png','c2.png','d2.png','e2.png','f2.png','g2.png');
+  var images3 = new Array('a3.png', 'b3.png','c3.png','d3.png','e3.png','f3.png','g3.png');
+  var images4 = new Array('a4.png', 'b4.png','c4.png','d4.png','e4.png','f4.png','g4.png');
+  var images5 = new Array('a5.png', 'b5.png','c5.png','d5.png','e5.png');
+  // var imageCollection = new Array('image','image2','image3','image4','image5');
+  // var random = imageCollection[Math.floor(Math.random() * imageCollection.length)];
   var $icecream = $('#icecream');
   var counter = 0;
   // Set up a variable to store the cone setInterval, so that later on we can clear the interval
@@ -14,6 +16,13 @@ $(document).ready(function() {
   var coneInterval3;
   var coneInterval4;
   var coneInterval5;
+
+//   function nextItem() {
+//     i = i + 1;
+//     i = i % random.length;
+//     return random[i];
+// }
+
 
   $(document).on('mouseenter.iceCream', '#icecream', function(e) {
     var windowMaxX = $(window).width() - $(this).width();
@@ -45,30 +54,12 @@ $(document).ready(function() {
     meltCone();
   }, 1000);
 
-  //   function meltConeSecond() {
-  // 	if (counter < images2.length) {
-  //     $icecream.attr('src', images2[counter]);
-  //     counter++;
-  //   } 
-  //   else {
-  //     console.log('interval')
-  //     // Clear the interval when the cone is melted so that the code inside setInterval
-  //     // doesn't continue to run forever.
-  //     clearInterval(coneInterval2);
-  //     // Turn off the event listener named "mouseenter.iceCream"
-  //     $(document).off('mouseenter.iceCream');
-  //   }
-  // }
-  // coneInterval2 = setInterval(function() {
-  //   meltConeSecond();
-  // }, 1000);
-
-
   $("#icecream").on("click",function() {
 	console.log('click');
 	console.log('reset interval');
 	counter = 0;
     function meltConeSecond() {
+
 	  	if (counter < images2.length) {
 	      $icecream.attr('src', images2[counter]);
 	      counter++;
@@ -95,11 +86,17 @@ $(document).ready(function() {
       i = 0;
  	  }
 
- //  $("#icecream").on("click",function() {
-	// console.log('click');
-	// console.log('reset interval');
-	// counter = 0;
- //    function meltConeThird() {
+	$(document).on('mouseenter.iceCream', '#icecream', function(e) {
+	  var windowMaxX = $(window).width() - $(this).width();
+	  var windowMaxY = $(window).height() - $(this).height();
+
+	  $(this).css({
+	    left: getRandomInt(0, windowMaxX),
+	    top: getRandomInt(0, windowMaxY)
+	  });
+	});
+
+	// function meltConeThird() {
 	//   	if (counter < images3.length) {
 	//       $icecream.attr('src', images3[counter]);
 	//       counter++;
@@ -113,10 +110,10 @@ $(document).ready(function() {
 	//       $(document).off('mouseenter.iceCream');
 	//     }
 	//   }
-	// 	  coneInterval2 = setInterval(function() {
+	// 	  coneInterval3 = setInterval(function() {
 	// 	    meltConeThird();
 	// 	  }, 1000);
-		 
+
 	//   var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
 	//   $('body').css("background",hue);
 	//   var i=0;
@@ -126,41 +123,35 @@ $(document).ready(function() {
  //      i = 0;
  // 	  }
 
+	// $(document).on('mouseenter.iceCream', '#icecream', function(e) {
+	//   var windowMaxX = $(window).width() - $(this).width();
+	//   var windowMaxY = $(window).height() - $(this).height();
 
-
-
-
-	// counter = 0;
-
- //    meltCone();
-	//   var hue = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
-	//   $('body').css("background",hue);
-	//   var i=0;
- //      document.body.style.background = hue[i];
- //      i++;
- //      if(i == hue.length) {
- //      i = 0;
- // 	  }
-	// coneInterval = setInterval(function() {
-	//   meltCone();
-	// }, 1000);
-
-	$(document).on('mouseenter.iceCream', '#icecream', function(e) {
-	  var windowMaxX = $(window).width() - $(this).width();
-	  var windowMaxY = $(window).height() - $(this).height();
-
-	  $(this).css({
-	    left: getRandomInt(0, windowMaxX),
-	    top: getRandomInt(0, windowMaxY)
-	  });
-	});
+	//   $(this).css({
+	//     left: getRandomInt(0, windowMaxX),
+	//     top: getRandomInt(0, windowMaxY)
+	//   });
+	// });
   });
 
 
   function getRandomInt(min, max) {
     return Math.floor(Math.random() *500)+"px";
   }
+
+
+
+
+
+
+
+
+
 });
+
+
+
+
 
 //DOESN'T WORK - trying to put mouseenter in if else statement
 // $(document).ready(function(){
