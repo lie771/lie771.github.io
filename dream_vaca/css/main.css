@@ -23,17 +23,17 @@ html, body{
 
 .title{
 	font-family: Avenir; 
-	font-size: 1em;
+	font-size: 1.3em;
 	position: absolute;
 	opacity: 0;
     animation: fade 2s linear;
-	bottom:25%;
+	bottom:10%;
 	left:50%;
-	color: white;
-	transform: translate(-50%, -50%);
+	color: #B7B7B7;
+	transform: translateX(-50%);
 }
 @keyframes fade {
-    0%   {opacity:0;}
-    50%  {opacity:1;}
+    0%   {opacity:1;}
+    70%  {opacity:1;}
     100%  {opacity:0;}
 }
