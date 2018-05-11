@@ -1,10 +1,10 @@
 $(document).ready(function() {
   // $("html").css("cursor", "url(./img/cursor.png), auto");
-  var images = new Array('a.png', 'b.png','c.png','d.png','e.png','f.png','g.png');
+  var images = new Array('a.png','b.png','b.png','c.png','d.png','e.png','f.png','g.png');
   var images2 = new Array('a2.png', 'b2.png','c2.png','d2.png','e2.png','f2.png','g2.png');
   var images3 = new Array('a3.png', 'b3.png','c3.png','d3.png','e3.png','f3.png','g3.png');
   var images4 = new Array('a4.png', 'b4.png','c4.png','d4.png','e4.png','f4.png','g4.png');
-  var images5 = new Array('a5.png','a5.png', 'b5.png','b5.png','c5.png','d5.png','e5.png' );
+  var images5 = new Array('a5.png','a5.png', 'b5.png','b5.png','c5.png','d5.png','e9.png');
   var imageCollection = [images, images2, images3, images4, images5];
 
   var $icecream = $('#icecream');
@@ -33,8 +33,8 @@ document.body.style.backgroundColor = cssHSL;
       var windowMaxY = $(window).height();
 
       $(this).css({
-        left: getRandomInt(0, windowMaxX),
-        top: getRandomInt(0, windowMaxY)
+        left: getRandomInt(100, windowMaxX),
+        top: getRandomInt(100, windowMaxY)
       });
     });
   }
@@ -63,7 +63,7 @@ document.body.style.backgroundColor = cssHSL;
   // The setInterval can be stored in a variable
   coneInterval = setInterval(function() {
     meltCone();
-  }, 1000);
+  }, 1500);
 
   $("#icecream").on("click",function() {
     // If the cone is in the progress of melting, don't do anything when the user clicks.
@@ -95,7 +95,7 @@ document.body.style.backgroundColor = cssHSL;
     // Start the interval to continue melting.
     coneInterval = setInterval(function() {
       meltCone();
-    }, 1000);
+    }, 1500);
 
     var cssHSL = "hsl(" + 360 * Math.random() + ',' +
                      (25 + 70 * Math.random()) + '%,' + 
@@ -111,38 +111,8 @@ document.body.style.backgroundColor = cssHSL;
 
   // This one allows you to pass both the `min` and `max` values in the way you intended.
   function getRandomInt(min, max) {
-    return min + Math.floor(Math.random() * (max - min + 1));
+    return min + Math.floor(Math.random() * (max - min + 5));
   }
-  // function buildColor( r, g, b ) {
-  //   return "rgb(" + r + ", " + g + ", " + b + ")";  
-  // }
 
-  // function colorR(){
-  //     var red = getRandomInt(198,239);
-  //     var green = getRandomInt(7,88);
-  //     var blue = getRandomInt(27,128);
-  //     var color = buildColor(red, green, blue);
-
-  //     var red2 = getRandomInt(120,179);
-  //     var green2 = 15;
-  //     var blue2 = getRandomInt(45,134);
-  //     var color2 = buildColor(red2, green2, blue2);
-
-  //     var red3 = getRandomInt(35,180);
-  //     var green3 = getRandomInt(114,214);
-  //     var blue3 = 247;
-  //     var color3 = buildColor(red3, green3, blue3);
-
-  //     var colorPicker = [ color, color2, color3  ];
-  //     var randomColor = colorPicker[Math.floor(Math.random() * colorPicker.length)];
-  //     $('body').css("background",randomColor);
-  //     var i=0;
-  //     document.body.style.background = randomColor[i];
-  //     i++;
-  //     if(i == randomColor.length) {
-  //     i = 0;
-  //     }
-
-  // }
 
 });
